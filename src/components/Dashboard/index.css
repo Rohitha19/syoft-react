@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.dashboard {
+    background-image: url("https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=996&t=st=1721043532~exp=1721044132~hmac=cdc033cabc5f1405ee5b9131b5f28098346def0b0905c5931b698cdb96fcb5f6");
+    background-size: cover;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    color:white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 30%;
+    max-width: 600px;
+    border-radius: 8px;
+    justify-content: center;
+}
+button{
+    width: 100px;
+}
+.dashboard-header {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.dashboard-content {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+}
+
+.dashboard-content h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.dashboard-content p {
+    color: #666;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.user-info div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.user-info label {
+    font-weight: bold;
+    color: #333;
+}
+
+.user-info span {
+    color: #666;
+}
+
+/* Logout button */
+.logout-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.logout-button:hover {
+    background-color: #d32f2f;
+}
